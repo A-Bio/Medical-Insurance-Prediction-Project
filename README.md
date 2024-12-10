@@ -73,4 +73,4 @@ This project applies machine learning regression model to predict medical insura
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bugs. For major updates, please open an issue to discuss your ideas.
 
 **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

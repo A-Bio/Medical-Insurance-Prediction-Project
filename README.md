@@ -13,10 +13,10 @@ This project aims to use machine learning techniques to predict medical insuranc
 - License
 
 **Project Overview**
-  The objective of this project is to predict medical insurance charges using machine learning. By leveraging various features, such as age, BMI, smoking status, and sex, this project applies regression model to predict the insurance charges for individuals. The project includes data preprocessing, exploratory data analysis (EDA), and the use of machine learning model for prediction.
+- The objective of this project is to predict medical insurance charges using machine learning. By leveraging various features, such as age, BMI, smoking status, and sex, this project applies regression model to predict the insurance charges for individuals. The project includes data preprocessing, exploratory data analysis (EDA), and the use of machine learning model for prediction.
 
 **Dataset Sources**
-  The dataset used for this project is publicly available on Kaggle and contains the following columns:
+- The dataset used for this project is publicly available on Kaggle and contains the following columns:
 **age**: Age of the individual
 **sex**: Gender of the individual
 **bmi**: Body Mass Index (BMI) of the individual
@@ -25,33 +25,43 @@ This project aims to use machine learning techniques to predict medical insuranc
 **region**: The region of residence of the individual
 **charges**: Medical insurance charges (Target variable)
 
+**Installation**
+- Clone the repository to your local machine
+- Create and activate a virtual environment
+- Install the necessary dependencies
+
+**Usage**
+- Open the Notebook
+- Open the Medical_Insurance_Prediction.ipynb file.
+- Follow the steps in the notebook to load and preprocess the data, train the model, and evaluate its performance.
+
 **Analysis Breakdown**
 1. **Data Preprocessing**
-**Missing Values Handling**:
+- **Missing Values Handling**:
 The dataset contains no missing values.
-**Feature Encoding**:
+- **Feature Encoding**:
 The column smoker, sex & region is categorical. They were encoded into binary values (0 & 1) to be used as input for machine learning models.
 
 2. **Exploratory Data Analysis (EDA)**
-**Data Summary**:
+- **Data Summary**:
 The dataset is initially explored by calculating summary statistics (mean, median, and standard deviation) for each feature.
 
-**Visualizing Distributions**:
+- **Visualizing Distributions**:
 **Histogram**: The distribution of key features such as charges, bmi, and age is visualized to understand their shapes (normal, skewed, etc.).
 **Countplot**: Countplot is used to show the distribution of features like children and sex.
 
-**Correlation Analysis**:
+- **Correlation Analysis**:
 A correlation matrix is computed to identify relationships between features. 
 
 3. **Modeling**
-**Model Selection**:
+- **Model Selection**:
 **Linear Regression**: A basic regression model used to predict charge
 
-**Model Training**:
+- **Model Training**:
 The model is trained on the dataset, with features such as age, bmi, smoker, and children used to predict charges. Cross-validation is applied to evaluate the models' generalization ability.
 
 4. **Model Evaluation**
-**Evaluation Metrics**:
+- **Evaluation Metrics**:
 Model is evaluated using:
 R² Score: Indicates how well the model fits the data, with values closer to 1 representing better fit.
 

@@ -57,17 +57,17 @@ R² Score: Indicates how well the model fits the data, with values closer to 1 r
 
 **Modeling and Results**
 This project applies machine learning regression model to predict medical insurance charges. The steps involved are:
-**Data Preprocessing**: Handling missing values and encoding categorical variables.
-**Exploratory Data Analysis (EDA)**: Visualizing the relationships between features and understanding data distributions.
-**Modeling**:Linear Regression
-**Evaluation**: The model's performance is assessed using R² score.
+- **Data Preprocessing**: Handling missing values and encoding categorical variables.
+- **Exploratory Data Analysis (EDA)**: Visualizing the relationships between features and understanding data distributions.
+- **Modeling**:Linear Regression
+- **Evaluation**: The model's performance is assessed using R² score.
 
 **Technologies Used**
-**Python**: The main programming language used for data analysis and machine learning.
-**Pandas & NumPy**: Libraries for data manipulation and numerical computations.
-**Scikit-learn**: For building and evaluating machine learning models.
-**Matplotlib & Seaborn**: For data visualization.
-**Google Colab**: Interactive computing environment for executing and documenting the analysis.
+- **Python**: The main programming language used for data analysis and machine learning.
+- **Pandas & NumPy**: Libraries for data manipulation and numerical computations.
+- **Scikit-learn**: For building and evaluating machine learning models.
+- **Matplotlib & Seaborn**: For data visualization.
+- **Google Colab**: Interactive computing environment for executing and documenting the analysis.
 
 **Contributing**
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bugs. For major updates, please open an issue to discuss your ideas.

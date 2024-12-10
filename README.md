@@ -12,10 +12,10 @@ This project aims to use machine learning techniques to predict medical insuranc
 - Contributions
 - License
 
-# **Project Overview**
+**Project Overview**
 The objective of this project is to predict medical insurance charges using machine learning. By leveraging various features, such as age, BMI, smoking status, and sex, this project applies regression model to predict the insurance charges for individuals. The project includes data preprocessing, exploratory data analysis (EDA), and the use of machine learning model for prediction.
 
-# **Dataset Sources**
+**Dataset Sources**
 The dataset used for this project is publicly available on Kaggle and contains the following columns:
 **age**: Age of the individual
 **sex**: Gender of the individual

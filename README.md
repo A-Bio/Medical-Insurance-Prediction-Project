@@ -2,7 +2,7 @@
 This project aims to use machine learning techniques to predict medical insurance costs based on various factors such as age, sex, BMI, number of children, smoking status, and region. The goal is to understand the relationships between these features and the charges, allowing the creation of a robust predictive model.The dataset used for this project contains information about individuals' insurance charges and associated characteristics.
 
 **Table of Contents**
-  Project Overview
+- Project Overview
   Dataset Sources
   Installation
   Usage
